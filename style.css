@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #3c4043;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.main-nav {
+  width: 100%;
+  height: 50px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 0.6px rgb(218, 220, 224);
+}
+
+.left-nav {
+  width: 10%;
+}
+
+.left-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.right-nav {
+  width: 10%;
+}
+
+.img_container img {
+  margin-right: 5px;
+}
+
+.menu:hover {
+  background-color: rgb(218, 220, 224);
+  border-radius: 50%;
+  margin: -5px;
+  padding: 5px;
+}
+
+.img_container:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classroom-logo {
+  height: 30px;
+  width: 28px;
+}
+
+.avatar-icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.left-nav .nav-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.aside {
+  width: 30%;
+  height: 600px;
+  border-right: solid 0.6px rgb(218, 220, 224);
+  padding-left: 10px;
+
+}
+
+.sidebar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+}
+
+.sidebar_bdr {
+  border-top: solid 0.8px rgb(218, 220, 224);
+  border-bottom: solid 0.8px rgb(218, 220, 224);
+}
+
+.green {
+  background-color: green;
+  border-radius: 50%;
+  color: white;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button span {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+button {
+  height: 8vh;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: rgb(218, 220, 224);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -10px;
+  padding-left: 16px;
+}
+
+button:focus {
+  background-color: #959697ab;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -10px;
+  padding-left: 16px;
+}
+
+.nav-text {
+  text-decoration: none;
+}
+
+.nav-text:hover {
+  text-decoration: underline;
+  color: #1e8e3e;
+}
+
+nav span:hover {
+  background-color: rgb(218, 220, 224);
+  border-radius: 50%;
+  margin: -5px;
+  padding: 5px;
+}
+
+.card-box span:hover {
+  background-color: rgb(218, 220, 224);
+  border-radius: 50%;
+  margin: -5px;
+  padding: 5px;
+}
+
+.card-top-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.card-box span:hover {
+  background-color: rgb(128, 128, 128);
+  border-radius: 50%;
+}
+
+.avatar-icon:hover {
+  background-color: rgba(100, 100, 100, 0.726);
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.section {
+  height: 91vh;
+  width: 80%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.card-box {
+  height: 300px;
+  width: 300px;
+  border: solid 0.6px rgb(218, 220, 224);
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+.card-top {
+  height: 100px;
+  width: 300px;
+  background-color: rgb(19, 115, 51);
+  text-align: start;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  position: relative;
+}
+
+.card-top h1 {
+  font-size: 22px;
+  margin-top: 15px;
+  color: white;
+  padding-left: 20px;
+}
+
+.card-top p {
+  font-size: 13px;
+  color: white;
+  padding-left: 20px;
+}
+
+.centerofbox {
+  height: 137px;
+  width: 300px;
+  position: relative;
+}
+
+.boximg {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  border-radius: 50%;
+  right: 15px;
+  top: -35px;
+}
+
+.card-bottom {
+  height: 57px;
+  width: 300px;
+  position: relative;
+  border-top: solid 0.6px rgb(218, 220, 224);
+}
+
+#profile {
+  position: absolute;
+  right: 60px;
+  top: 20px;
+}
+
+#folder {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#dots {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: white;
+}
+
+.boximg:hover {
+  background-color: #3c40432b;
+  padding: 5px;
+}
